@@ -11,6 +11,5 @@ def create_github_repo(repo_name, token):
         print("Error:", response.json())
 
 token = ""
-repo_name = "example-repo"
 create_github_repo(repo_name, token)
 
